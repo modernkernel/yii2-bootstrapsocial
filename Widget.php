@@ -9,6 +9,10 @@
 namespace harrytang\bootstrapsocial;
 
 
+/**
+ * Class Widget
+ * @package harrytang\bootstrapsocial
+ */
 class Widget extends \yii\base\Widget
 {
     public $options = [];
