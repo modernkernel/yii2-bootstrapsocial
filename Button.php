@@ -3,13 +3,17 @@
  * @author Harry Tang <harry@modernkernel.com>
  * @link https://modernkernel.com
  * @copyright Copyright (c) 2016 Modern Kernel
- * http://lipis.github.io/bootstrap-social/
  */
+
 
 namespace harrytang\bootstrapsocial;
 
 use yii\helpers\Html;
 
+/**
+ * Class Button
+ * @package harrytang\bootstrapsocial* 
+ */
 class Button extends Widget
 {
 
