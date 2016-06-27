@@ -1,5 +1,5 @@
 {
-  "name": "harrytang/yii2-bootstrapsocial",
+  "name": "modernkernel/yii2-bootstrapsocial",
   "description": "Yii2 Bootstrap Social",
   "type": "yii2-extension",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "harrytang\\bootstrapsocial\\": ""
+      "modernkernel\\bootstrapsocial\\": ""
     }
   }
 }
