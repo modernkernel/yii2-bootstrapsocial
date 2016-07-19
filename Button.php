@@ -6,13 +6,13 @@
  */
 
 
-namespace harrytang\bootstrapsocial;
+namespace modernkernel\bootstrapsocial;
 
 use yii\helpers\Html;
 
 /**
  * Class Button
- * @package harrytang\bootstrapsocial* 
+ * @package modernkernel\bootstrapsocial* 
  */
 class Button extends Widget
 {
