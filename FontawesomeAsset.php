@@ -5,14 +5,14 @@
  * @copyright Copyright (c) 2016 Modern Kernel
  */
 
-namespace harrytang\bootstrapsocial;
+namespace modernkernel\bootstrapsocial;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class FontawesomeAsset
- * @package harrytang\bootstrapsocial
+ * @package modernkernel\bootstrapsocial
  */
 class FontawesomeAsset extends AssetBundle
 {
