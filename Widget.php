@@ -6,12 +6,12 @@
  */
 
 
-namespace harrytang\bootstrapsocial;
+namespace modernkernel\bootstrapsocial;
 
 
 /**
  * Class Widget
- * @package harrytang\bootstrapsocial
+ * @package modernkernel\bootstrapsocial
  */
 class Widget extends \yii\base\Widget
 {
