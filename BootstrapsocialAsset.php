@@ -8,18 +8,18 @@
 /**
  * @link http://lipis.github.io/bootstrap-social/
  */
-namespace harrytang\bootstrapsocial;
+namespace modernkernel\bootstrapsocial;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapsocialAsset
- * @package harrytang\bootstrapsocial
+ * @package modernkernel\bootstrapsocial
  */
 class BootstrapsocialAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/harrytang/yii2-bootstrapsocial/assets';
+    public $sourcePath = '@vendor/modernkernel/yii2-bootstrapsocial/assets';
     public $css = [
         'bootstrap-social.css',
     ];
