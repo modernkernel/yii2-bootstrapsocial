@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist harrytang/yii2-bootstrapsocial "*"
+php composer.phar require --prefer-dist modernkernel/yii2-bootstrapsocial "*"
 ```
 
 or add
 
 ```
-"harrytang/yii2-bootstrapsocial": "*"
+"modernkernel/yii2-bootstrapsocial": "*"
 ```
 
 to the require section of your `composer.json` file.
