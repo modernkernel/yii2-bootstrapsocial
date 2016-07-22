@@ -15,7 +15,8 @@
   ],
   "require": {
     "yiisoft/yii2": "*",
-    "bower-asset/bootstrap-social": "4.*"
+    "bower-asset/bootstrap-social": "4.*",
+    "modernkernel/yii2-fontawesome": "*"
   },
   "autoload": {
     "psr-4": {

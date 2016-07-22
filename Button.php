@@ -12,15 +12,15 @@ use yii\helpers\Html;
 
 /**
  * Class Button
- * @package modernkernel\bootstrapsocial* 
+ * @package modernkernel\bootstrapsocial*
  */
 class Button extends Widget
 {
 
-    public $iconOnly=false;
+    public $iconOnly = false;
 
-    public $button='';
-    public $link='#';
+    public $button = '';
+    public $link = '#';
 
     /**
      * @var string the button label
@@ -42,19 +42,17 @@ class Button extends Widget
         $this->register();
 
         /* link */
-        $this->options=array_merge($this->options, ['href'=>$this->link]);
+        $this->options = array_merge($this->options, ['href' => $this->link]);
 
 
-        $class='btn-block btn-social btn-'.$this->button;
-        if($this->iconOnly)
-        {
-            $class='btn-social-icon btn-'.$this->button;
+        $class = 'btn-block btn-social btn-' . $this->button;
+        if ($this->iconOnly) {
+            $class = 'btn-social-icon btn-' . $this->button;
         }
-        if($this->encodeLabel)
-        {
-            $this->label=Html::encode($this->label);
+        if ($this->encodeLabel) {
+            $this->label = Html::encode($this->label);
         }
-        Html::addCssClass($this->options, 'btn '.$class);
+        Html::addCssClass($this->options, 'btn ' . $class);
 
     }
 
@@ -64,10 +62,10 @@ class Button extends Widget
     public function run()
     {
 
-            echo Html::beginTag('a', $this->options);
-            echo Html::tag('i', '', ['class'=>'fa fa-'.$this->button]);
-            echo $this->iconOnly?'':$this->label;
-            echo Html::endTag('a');
+        echo Html::beginTag('a', $this->options);
+        echo Html::tag('i', '', ['class' => 'fa fa-' . $this->button]);
+        echo $this->iconOnly ? '' : $this->label;
+        echo Html::endTag('a');
 
     }
 

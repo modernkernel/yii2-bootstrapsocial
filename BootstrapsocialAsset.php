@@ -19,7 +19,7 @@ use yii\web\AssetBundle;
  */
 class BootstrapsocialAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/modernkernel/yii2-bootstrapsocial/assets';
+    public $sourcePath = '@bower/bootstrap-social';
     public $css = [
         'bootstrap-social.css',
     ];
