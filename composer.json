@@ -10,13 +10,13 @@
   "authors": [
     {
       "name": "Harry Tang",
-      "email": "giaduy@gmail.com"
+      "email": "harry@modernkernel.com"
     }
   ],
   "require": {
     "yiisoft/yii2": "*",
     "bower-asset/bootstrap-social": "4.*",
-    "modernkernel/yii2-fontawesome": "*"
+    "modernkernel/yii2-fontawesome": "dev-master"
   },
   "autoload": {
     "psr-4": {
