@@ -8,6 +8,8 @@
 
 namespace modernkernel\bootstrapsocial;
 
+use modernkernel\fontawesome\FontawesomeAsset;
+
 
 /**
  * Class Widget
