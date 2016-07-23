@@ -1,12 +1,17 @@
 {
   "name": "modernkernel/yii2-bootstrapsocial",
-  "description": "Yii2 Bootstrap Social",
+  "description": "Bootstrap Social extension for Yii2",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
-    "extension"
+    "bootstrap",
+    "social"
   ],
-  "license": "Apache-2.0",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/modernkernel/yii2-bootstrapsocial/issues?state=open",
+    "source": "https://github.com/modernkernel/yii2-bootstrapsocial"
+  },
   "authors": [
     {
       "name": "Harry Tang",

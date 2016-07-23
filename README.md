@@ -1,6 +1,6 @@
 Yii2 Bootstrap Social
 =====================
-Yii2 Bootstrap Social
+Bootstrap Social extension for Yii2
 
 Installation
 ------------
