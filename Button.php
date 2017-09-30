@@ -1,7 +1,7 @@
 <?php
 /**
- * @author Harry Tang <harry@modernkernel.com>
- * @link https://modernkernel.com
+ * @author Harry Tang <harry@powerkernel.com>
+ * @link https://powerkernel.com
  * @copyright Copyright (c) 2016 Modern Kernel
  */
 
@@ -20,7 +20,7 @@ class Button extends Widget
     public $iconOnly = false;
 
     public $button = '';
-    public $link = '#';
+    public $link = '';
 
     /**
      * @var string the button label
@@ -42,7 +42,10 @@ class Button extends Widget
         $this->register();
 
         /* link */
-        $this->options = array_merge($this->options, ['href' => $this->link]);
+        if(!empty($this->link)){
+            $this->options = array_merge($this->options, ['href' => $this->link]);
+        }
+
 
 
         $class = 'btn-block btn-social btn-' . $this->button;
@@ -62,10 +65,16 @@ class Button extends Widget
     public function run()
     {
 
-        echo Html::beginTag('a', $this->options);
+        if(!empty($this->link)){
+            $tag='a';
+        }
+        else {
+            $tag='span';
+        }
+        echo Html::beginTag($tag, $this->options);
         echo Html::tag('i', '', ['class' => 'fa fa-' . $this->button]);
         echo $this->iconOnly ? '' : $this->label;
-        echo Html::endTag('a');
+        echo Html::endTag($tag);
 
     }
 
