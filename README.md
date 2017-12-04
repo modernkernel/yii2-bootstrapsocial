@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist modernkernel/yii2-bootstrapsocial "*"
+php composer.phar require --prefer-dist powerkernel/yii2-bootstrapsocial "*"
 ```
 
 or add
 
 ```
-"modernkernel/yii2-bootstrapsocial": "*"
+"powerkernel/yii2-bootstrapsocial": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,7 +27,7 @@ Usage
 Once the extension is installed, simply use it in your code by :
 
 ```
-<?= \modernkernel\bootstrapsocial\Button::widget([
+<?= \powerkernel\bootstrapsocial\Button::widget([
     'button' => 'twitter', // Available buttons see https://github.com/lipis/bootstrap-social/
     'iconOnly' => false, // set true if only want the icon 
     'link' => '#your-url', // the button URL

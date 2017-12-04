@@ -6,14 +6,14 @@
  */
 
 
-namespace modernkernel\bootstrapsocial;
+namespace powerkernel\bootstrapsocial;
 
-use modernkernel\fontawesome\FontawesomeAsset;
+use powerkernel\fontawesome\FontawesomeAsset;
 
 
 /**
  * Class Widget
- * @package modernkernel\bootstrapsocial
+ * @package powerkernel\bootstrapsocial
  */
 class Widget extends \yii\base\Widget
 {

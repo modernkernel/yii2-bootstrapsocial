@@ -6,13 +6,13 @@
  */
 
 
-namespace modernkernel\bootstrapsocial;
+namespace powerkernel\bootstrapsocial;
 
 use yii\helpers\Html;
 
 /**
  * Class Button
- * @package modernkernel\bootstrapsocial*
+ * @package powerkernel\bootstrapsocial*
  */
 class Button extends Widget
 {

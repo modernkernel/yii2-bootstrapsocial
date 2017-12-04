@@ -8,14 +8,14 @@
 /**
  * @link http://lipis.github.io/bootstrap-social/
  */
-namespace modernkernel\bootstrapsocial;
+namespace powerkernel\bootstrapsocial;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapsocialAsset
- * @package modernkernel\bootstrapsocial
+ * @package powerkernel\bootstrapsocial
  */
 class BootstrapsocialAsset extends AssetBundle
 {
