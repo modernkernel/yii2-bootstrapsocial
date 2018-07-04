@@ -20,7 +20,7 @@
   ],
   "require": {
     "yiisoft/yii2": "~2.0.4",
-    "bower-asset/bootstrap-social": "~5.0",
+    "bower-asset/bootstrap-social": "~5.1",
     "powerkernel/yii2-fontawesome": "~1.0"
   },
   "autoload": {
